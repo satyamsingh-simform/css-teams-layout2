@@ -134,6 +134,9 @@ a:hover{
     background-color: rgb(206, 204, 204);
     /* border: 1px solid; */
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box:hover{
     cursor: pointer;
