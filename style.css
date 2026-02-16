@@ -44,7 +44,7 @@ a{
     padding: 5px;
     border-radius: 50%;
 }
-.nav1{
+.nav-left{
     width: 20%;
     /* background-color: blueviolet; */
    padding-left:2rem ;
@@ -57,7 +57,7 @@ input{
     padding-left: 10px;
     font-size: 1.2rem;
 }
-.nav3{
+.nav-right{
     width: 20%;
     /* background-color: blueviolet; */
     padding-left: 14rem;
