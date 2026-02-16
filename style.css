@@ -10,11 +10,13 @@
     display: grid;
     grid-template-columns: 1fr 23fr;
     grid-template-rows: 1fr 15fr;
+    border-radius:115px;
 }
 
 .head{
     grid-column: 1/-1;
     /* background-color: aqua; */
+    /* border-radius: 5px; */
 }
 
 .head-nav{
@@ -24,11 +26,15 @@
     display: flex;
     justify-content: space-between;
     align-items:center ;
+    /* border-radius:5px; */
+    border-bottom: 1px solid rgb(185, 183, 183);
+
 }
 a{
     text-decoration: none;
      font-size: 1.2rem;
      color: black;
+     margin: 0 10px;
 
 }
 .nav1{
@@ -51,6 +57,13 @@ button{
     height: 50px;
     width: 50px;
     margin: 0px 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(123, 151, 151);
+    text-decoration: underline;
 }
 .side{
     grid-row: 2/-1;
@@ -91,6 +104,7 @@ button{
     justify-content: space-between;
     align-items: center;
     /* gap: 10px; */
+    border-bottom: 1px solid rgb(223, 219, 219)
 }
 .body-box{
     /* width: 100vw; */
@@ -111,4 +125,8 @@ button{
     background-color: rgb(206, 204, 204);
     /* border: 1px solid; */
     border-radius: 5px;
+}
+.box:hover{
+    cursor: pointer;
+    border: 1px solid skyblue;
 }
